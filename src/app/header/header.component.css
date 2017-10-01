@@ -1,0 +1,12 @@
+#topImage {
+    height: 100px;
+    background: url('/assets/topBanner.jpg') no-repeat center center;
+    background-size: 100%;
+}
+
+@media(max-width: 767px){
+    #topImage {
+        height: 0px;
+        background: none;
+    }
+}
